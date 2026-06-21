@@ -1,0 +1,91 @@
+# ----------------------------
+# FRONTEND (React)
+# ----------------------------
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directories
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+
+# Cache & Coverage
+coverage
+*.lcov
+.nyc_output
+.cache
+.parcel-cache
+.temp
+
+# Build output
+dist
+build
+.out
+.next
+.nuxt
+.vuepress/dist
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Others
+npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_*
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.env.*.local
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/
+.pnp.*
+
+# ----------------------------
+# BACKEND (Spring Boot)
+# ----------------------------
+
+# Maven target folder
+backend/target/
+
+# IDE-specific files
+backend/.project
+backend/.classpath
+backend/.settings/
+backend/.factorypath
+
+# Ignore log files
+backend/*.log
+
+# Hide sensitive configuration (real password)
+backend/src/main/resources/application.yml
+
+# ----------------------------
+# GENERAL
+# ----------------------------
+
+.DS_Store
+Thumbs.db
